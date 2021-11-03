@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="main-inner" style="margin-top:40px">
+            <section id="step-5" class="step">
+                <img id="hand" class="hand" src="./assets/images/hand.png" alt="hand">
+                <canvas class="pointer" id = "myCanvas" width = "400" 
+                height = "750" >
+                </canvas>
+                <ul id="myUL" class="magic-numbers">
+                    <li>
+                        x3
+                    </li>
+                    <li>
+                        x1
+                    </li>
+                    <li>
+                        x2
+                    </li>
+                    <li>
+                        x1
+                    </li>
+                    <li>
+                        x2
+                    </li>
+                    <li>
+                        x1
+                    </li>
+                    <li>
+                        x3
+                    </li>
+                </ul>
+            </section>
+            <!-- STEP 5 END -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="myFooter" class="footer-inner"> 
+        </div>
+    </footer>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
+<style>
+    @media only screen and (max-width: 640px) {
+    canvas {
+        width: 300px;
+    }
+    }
+    canvas{
+        touch-action:auto;
+    }
+    .pointer {
+        cursor: pointer;
+    }
+</style>
