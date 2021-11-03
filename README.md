@@ -11,5 +11,6 @@ To run this project, install it locally using npm:
 $ git clone https://github.com/GeorgeMarych/hein-game
 $ cd hein-game
 $ npm install
+$ browserify ./src/main.js -> ./dist/bundle.js
 $ open index.html
 ```
