@@ -1,6 +1,6 @@
 # Hein-Game 
 
-This project is a js game.
+This project is a HTML5 game.
 
 Logic related comments are all in the code itself.
 	
